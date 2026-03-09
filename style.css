@@ -10,7 +10,7 @@ body {
 	background:
 		radial-gradient(circle at 10% 15%, #2c205e 0, transparent 32%),
 		radial-gradient(circle at 85% 20%, #1e2f66 0, transparent 28%),
-		linear-gradient(140deg, #090b1d 0%, #111733 40%, #0b1024 100%);
+		linear-gradient(140deg, #0b1aa0 0%, #1c3fdb 40%, #8a9bdf 100%);
 	background-size: 150% 150%, 150% 150%, 180% 180%;
 	animation: auroraFlow 22s ease-in-out infinite;
 	display: grid;
