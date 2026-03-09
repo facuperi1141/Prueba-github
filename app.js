@@ -15,6 +15,13 @@ const CHIP_LABELS = ['NO', 'NOP', 'NEGADO'];
 let rainTimeoutId = null;
 let lastDropX = null;
 
+const botonExcusa = document.getElementById("nextPhraseBtn");
+
+botonExcusa.addEventListener("click", function() {
+    alert("Cuidado, usted no se va a poder resistir a decir que no");
+});
+
+
 const normalizePhrase = (value) => {
     const text = String(value || '').trim();
     if (!text) {
@@ -161,3 +168,5 @@ const loadPhrase = async () => {
 nextPhraseBtn.addEventListener('click', loadPhrase);
 startNoRain();
 loadPhrase();
+
+
